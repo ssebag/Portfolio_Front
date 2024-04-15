@@ -1,0 +1,22 @@
+.swiper-button-next, .swiper-button-prev{
+    color: var(--Black-color);
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--Black-color);
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 75vh;
+}
+/* ====================== Responsive ====================== */
+@media (max-width: 780px){
+.swiper-slide img{
+    height:50vh;
+ }
+}
+@media (max-width: 500px){
+    .swiper-slide img{
+        height:200px;
+     }
+    }

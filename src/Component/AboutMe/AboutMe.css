@@ -1,0 +1,16 @@
+.aboutMe{
+    height:500px;
+    gap: 30px;
+}
+/* ================================== Responsive ============================= */
+@media (max-width: 768px){
+    .aboutMe {
+        padding: 20px 5.5vw;
+        height:400px;
+    }  
+}
+@media (max-width: 500px){
+    .aboutMe {
+        height:350px;
+    }  
+}

@@ -1,0 +1,4 @@
+.projects .projectCards{
+    flex-wrap: wrap;
+    gap: 50px;
+}
