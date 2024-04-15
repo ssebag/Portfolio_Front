@@ -2,7 +2,7 @@
   "name": "react-pro",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ssebag.github.io/Portfolio_front/",
+  "homepage": "https://ssebag.github.io/Portfolio_Front/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

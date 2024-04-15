@@ -7,7 +7,7 @@ import './i18n.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-     <BrowserRouter basename='/Portfolio_front'>
+     <BrowserRouter basename='/Portfolio_Front'>
         <App />    
     </BrowserRouter>
     </React.StrictMode>
