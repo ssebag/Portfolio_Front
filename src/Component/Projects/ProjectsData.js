@@ -46,8 +46,8 @@ export const ProjectsData = [
       title: "Web Design",
       skills:"HTml, CSS",
       date: "01-10-2023",
-      github: "https://github.com/ssebag/ST-training_front_task3",
-      web: "https://ssebag.github.io/ST-training_front_task3/",
+      github: "https://github.com/ssebag/ST-Training-L1_task3",
+      web: "https://ssebag.github.io/ST-Training-L1_task3/",
     }, 
     {
       id: 3,  
@@ -58,8 +58,8 @@ export const ProjectsData = [
       title: "Web Design",
       skills:"HTml, CSS",
       date: "15-10-2023",
-      github: "https://github.com/ssebag/ST-training_front_task4",
-      web: "https://ssebag.github.io/ST-training_front_task4/",
+      github: "https://github.com/ssebag/ST-Training-L1_Task4",
+      web: "https://ssebag.github.io/ST-Training-L1_Task4/",
     }, 
     {
       id: 4,  
@@ -70,8 +70,8 @@ export const ProjectsData = [
       title: "Web Design",
       skills:"HTML, CSS, Responsive design",
       date: "24-10-2023",
-      github: "https://github.com/ssebag/seba_ghneem_5",
-      web: "https://ssebag.github.io/seba_ghneem_5/",
+      github: "https://github.com/ssebag/ST-Training-L1_Task5",
+      web: "https://ssebag.github.io/ST-Training-L1_Task5/",
     }, 
     {
       id: 5,  
@@ -82,8 +82,8 @@ export const ProjectsData = [
       title: "Web Design",
       skills:"HTML, CSS, Responsive design",
       date: "12-11-2023",
-      github: "https://github.com/ssebag/ST-final-project-L1",
-      web: "https://ssebag.github.io/ST-final-project-L1/",
+      github: "https://github.com/ssebag/ST-Training-L1-final-project",
+      web: "https://ssebag.github.io/ST-Training-L1-final-project/",
     }, 
     {
       id: 6,  
@@ -94,8 +94,8 @@ export const ProjectsData = [
       title: "Web Design",
       skills:"React Js, Responsive design",
       date: "29-12-2023",
-      github: "https://github.com/ssebag/ST-L2-Task5",
-      web: "https://ssebag.github.io/ST-L2-Task5/",
+      github: "https://github.com/ssebag/ST-Training-L2-Task5",
+      web: "https://ssebag.github.io/ST-Training-L2-Task5/",
     }, 
     {
       id: 7,  
@@ -106,8 +106,8 @@ export const ProjectsData = [
       title: "Web Design",
       skills:"React Js, using Api, Responsive design",
       date: "28-01-2024",
-      github: "https://github.com/ssebag/ST-L2-Task6",
-      web: "https://ssebag.github.io/ST-L2-Task6/",
+      github: "https://github.com/ssebag/ST-Training-L2-Task6",
+      web: " https://ssebag.github.io/ST-Training-L2-Task6/",
     },   
 ];
   
