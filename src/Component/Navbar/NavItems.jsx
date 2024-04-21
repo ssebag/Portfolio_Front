@@ -1,6 +1,6 @@
 import React, {useContext, useState} from 'react';
 import './Navbar.css'
-import { Items } from './Items'
+import { Items } from './items'
 import { HashLink } from "react-router-hash-link";
 import {LangContext} from './../../i18n';
 
