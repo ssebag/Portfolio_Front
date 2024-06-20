@@ -7,8 +7,7 @@ export default function SkillCard({ skill,  progress}) {
   const theme= localStorage.getItem("theme");
   return (
     <>
-     {/*  <div className={`skillCard flex-center flex-col ${theme ==="dark" ?  'dark' : ''}`}> */}
-     <div className={theme ==="light" ? 'skillCard flex-center flex-col' : 'skillCard flex-center flex-col dark'}> 
+     <div className={`skillCard flex-center flex-col ${theme ==="light" ?  ' ' : 'dark'}`}> 
         <p class="skill-title">{skill}</p>
         <p class="progress-div" data-progress={progress} style={{"--progress": progress }}>{progress}</p>    
       </div>
