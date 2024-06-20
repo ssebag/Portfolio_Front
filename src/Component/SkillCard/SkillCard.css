@@ -26,13 +26,13 @@
     width: 100%;
     margin: 10px;
     border-radius: 50%;
-    background: var(--Black-color);
+    background: var(--White-color);
     font-size: 1rem;
     text-align: center;
     font-weight: 600;
   }
-  .light .progress-div::after {
-    background: var(--White-color);
+  .dark .progress-div::after {
+    background: var(--Black-color);
   }
   
   @keyframes turn_in {

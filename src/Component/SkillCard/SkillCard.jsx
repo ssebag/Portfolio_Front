@@ -8,7 +8,7 @@ export default function SkillCard({ skill,  progress}) {
   return (
     <>
      {/*  <div className={`skillCard flex-center flex-col ${theme ==="dark" ?  'dark' : ''}`}> */}
-     <div className={theme ==="light" ? 'skillCard flex-center flex-col light' : 'skillCard flex-center flex-col'}> 
+     <div className={theme ==="light" ? 'skillCard flex-center flex-col' : 'skillCard flex-center flex-col dark'}> 
         <p class="skill-title">{skill}</p>
         <p class="progress-div" data-progress={progress} style={{"--progress": progress }}>{progress}</p>    
       </div>
