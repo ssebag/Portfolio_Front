@@ -2,7 +2,7 @@ import React, {useState, useContext} from 'react';
 import './Navbar.css'
 import NavItems from './NavItems'
 import menu_icon from './../../assets/images/icons/menu-icon.png'
-import {DarkModeContext} from './../context/DarkModeContext';
+import {DarkModeContext} from './../../context/DarkModeContext';
 import {LangContext} from './../../i18n';
 import moon from './../../assets/images/icons/moon.png'
 import sun from './../../assets/images/icons/sun.svg'

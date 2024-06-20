@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route , Routes} from "react-router-dom"
-import {DarkModeProvider} from './Component/context/DarkModeContext';
+import {DarkModeProvider} from './context/DarkModeContext';
 import {LangProvider} from './i18n';
 import './App.css'
 import Home from './pages/Home/Home'

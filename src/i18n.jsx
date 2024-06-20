@@ -24,9 +24,9 @@ function LangProvider(props){
     }
     useEffect(() =>
     {
-      setCurrentLanguage(localStorage.getItem("language"))
-      changeLanguage(localStorage.getItem("language"))
-        ,[]});
+      setCurrentLanguage(localStorage.getItem("language"));
+      changeLanguage(localStorage.getItem("language"));
+    },[]);
     return(
         <div>
            <LangContext.Provider value={{t, handleChangeLanguage}}>
