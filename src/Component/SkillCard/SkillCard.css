@@ -1,8 +1,7 @@
 .skillCard{
-  
     gap: 20px;
 }
-.skillCard p{
+.skillCard .skill-title{
     font-size: 25px;
     font-weight: 600;
     font-family: "Edu NSW ACT Foundation", cursive;
@@ -18,8 +17,7 @@
     background: conic-gradient(#9c89c7 var(--progress), #b5b2bb 0deg);
     font-size: 0;
     animation: 1.09s ease-out turn_in reverse; 
-  }
-  
+  }  
   .progress-div::after {
     content: attr(data-progress);
     display: flex;
@@ -31,6 +29,10 @@
     background: var(--Black-color);
     font-size: 1rem;
     text-align: center;
+    font-weight: 600;
+  }
+  .light .progress-div::after {
+    background: var(--White-color);
   }
   
   @keyframes turn_in {
