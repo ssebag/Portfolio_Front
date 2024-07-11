@@ -107,7 +107,7 @@ export const ProjectsData = [
       skills:"React Js, using Api, Responsive design",
       date: "28-01-2024",
       github: "https://github.com/ssebag/ST-Training-L2-Task6",
-      web: " https://ssebag.github.io/ST-Training-L2-Task6/",
+      web: "https://st-task6-sebaghs-projects.vercel.app/",
     },   
 ];
   
