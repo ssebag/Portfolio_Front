@@ -1,0 +1,20 @@
+.personalImg{
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.personalImg img{
+    border: 10px solid var(--purple-color);
+    text-shadow: 20px 15px 12px var(--Black-color);
+}
+/* =================================== Responsive ============================== */
+@media (max-width:600px){
+  .personalImg {
+    width: 200px;
+    margin-top: 34px;
+  }
+  .personalImg img{
+    width: 100%;
+  }
+}

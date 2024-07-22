@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+    --Black-color:#2f2f2f;
+    --White-color:#ffffff;
+    --gray-color:#7d7d7d;
+    --purple-color: #9c89c7;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    position:relative;
+} 
+.container{
+    padding: 0 5.124vw;
+}
+.containerSection{
+    padding: 80px 5.124vw;
+}
+nav ul {
+    list-style: none;
+}
+ul li{
+    font-family: "Edu NSW ACT Foundation", cursive;
+}
+a{
+    text-decoration: none;
+}
+.flex-bw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-al-c{
+    display: flex;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pointer{
+    cursor:pointer
+}
+
+/* =================================== For dark ================================== */
+.dark{
+    background-color: var(--Black-color);
+    color: var(--White-color) !important ;
+    transition:all 0.3s;
+}
+.light{
+    background-color: var(--White-color);
+    color: var(--Black-color) !important;
+    transition:all 0.3s;
+}
+.dark .nav-mobile{
+    background-color: var(--Black-color);
+}
+.dark p , .dark a{
+    color: var(--White-color) !important ;
+}
+.dark .contactCard {
+    box-shadow: 0px 0px 40px 0px var(--purple-color);
+}
+.dark .education_achievements_desc{
+    color: var(--Black-color) !important;
+}
+.background_black{
+    display: none;
+}
+.dark .background_black{
+    display:block;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.05;
+}
+.dark .contactDetails h3 {
+    color: white;
+}
+.dark .projectLinks img{
+    border-radius: 50%;
+}   
+/* ============================= For education and achievements description ======================  */
+.secBackground{
+    background-image: url('./assets/images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+.titlePosition{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+}
+.titlePosition .descSection{
+    display: none;
+}
+.aboutMe .myInfo .titleSection ,.education h2, .achievements .titleSection{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: var(--White-color);
+    text-shadow: -3.5px 0 var(--purple-color), 0 3.5px var(--purple-color) ,3.5px 0 var(--purple-color), 0 -3.5px var(--purple-color);
+    
+}
+
+.education_achievements_desc{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    line-height:50px;
+}
+.education_achievements_desc span{
+        color: var(--White-color);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        opacity: 0.7;
+        margin-left: 11px;
+}
+/* =================================== Responsive ================================== */
+@media (max-width:992px){
+    .containerSection {
+        padding: 40px 3.5vw;
+    }
+    .achievements .titlePosition{
+        width: max-content;
+    }
+}    
+@media (max-width: 768px){
+    .containerSection {
+        padding: 40px 5.5vw;
+    }
+    .education_achievements_desc{
+        font-size: 22px;
+    }
+}
+@media (max-width: 600px) {
+    .education_achievements_desc {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    .education_achievements_desc {
+        margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 500px){
+    .education_achievements_desc {
+        font-size: 18px;
+        line-height: 20px;
+      }
+      .education_achievements_desc span {
+        font-size: 12px;
+        line-height: 30px;
+      }
+      .achievements .titleSection{
+        font-size: 22px;
+      }
+}  

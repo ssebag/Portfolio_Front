@@ -1,0 +1,9 @@
+.aboutMe{
+    gap: 30px;
+}
+/* ================================== Responsive ============================= */
+@media (max-width: 768px){
+    .aboutMe {
+        padding: 20px 5.5vw;
+    }  
+}

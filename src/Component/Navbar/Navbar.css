@@ -1,0 +1,76 @@
+nav{
+    width: 95%;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    z-index: 100;
+    background:none;
+}
+.nav-items{
+    gap: 50px;
+}
+.menu_icon{
+    display: none;
+}
+.nav-items a, .nav-mobile-items a{
+  color: var(--Black-color);
+}
+/*  ================================= For Mobil ================================== */
+.nav-mobile{
+  position: fixed;
+  top: 36px;
+  right: 0;
+  width: 246px;
+  height: calc(100vh - 36px);
+  padding-top:90px;
+  align-items: center;
+  gap: 30px;
+  background-color: var(--White-color);
+  border-radius: 2%;
+  box-shadow: 0px 0px 30px var(--purple-color);
+}
+.nav-mobile ul{
+  border-bottom: 1px solid var(--purple-color);
+  padding-bottom: 20px;
+}
+.nav-mobile-items {
+  gap: 40px;
+}
+.close-icon{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  color: var(--purple-color);
+}
+.forMobile{
+  gap: 15px;
+}
+.navOption{
+  gap:20px;
+}
+.nav-mobile .lang img{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+/* =================================== Responsive ================================== */
+@media (max-width:992px) {
+   nav {
+    direction: ltr !important; 
+   }
+    .nav-items,.forWeb{
+      display: none;
+    }
+    .menu_icon{
+      display: block;
+    }
+}
+/* ============================== arabic lang =======================================*/
+.arabic{
+  direction: rtl;
+}
+.lang img{
+  width: 35px;
+  height: 25px;
+}

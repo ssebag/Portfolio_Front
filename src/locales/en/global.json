@@ -1,0 +1,52 @@
+{
+    "translation" : {
+    "navbar" :{
+        "About": "About",
+        "Skills" :"Skills",
+        "Projects": "Projects",
+        "Achievements and Certificates": "Achievements & Certificates",
+        "Contacts": "Contacts"
+     },
+     "personality" :{
+        "welcome": "Hello, I'm",
+        "myName": "Seba Ghneem"
+    },
+     "about":{
+        "personalInfo":"I am a front-end developer using React JS. I have a real passion in this field, so I work hard to give my best and at the same time I want to increase my experience. I'm a self-learned, organized, hardworking person.",
+        "Education" : "Education",
+        "EducationInfo": "Bachelor's degree in Information Technology Engineering",
+        "EducationUniversity": "Damascus University [2015 - 2021]"
+     },
+     "project":{
+        "proDescription":"Here are many websites that I have developed, sorted from the oldest to the newest.",
+        "read_more": "Read more"
+     },
+     "achievements":{
+        "achievement_1_date": "self-learning [2022 - 2023]",
+        "achievement_2_date": "at Vica web solution [2023 - 2024]"
+     },
+     "contacts":{
+        "description": "You can contact me through this information",
+        "address": "Address",
+        "address_info": "Syria, Damascus",
+        "phone": "Phone",
+        "email": "Email",
+        "cv": "Press to download"
+     },
+     "projectDetails":{
+        "project_1": "In this website, I was a beginner in HTML and CSS, and I create this page as a self-learning test",
+        "project_2": "This website was created using HTML and CSS, with a focus on learning how to create elements in HTML and style them with appropriately using CSS",
+        "project_3": "This website was created using HTML and CSS, with a focus on learning how to create elements in HTML and style them with appropriately using CSS",
+        "project_4": "This website was creating using HTML and CSS, but with a design created on Figma. Additionally, this website responsive and compatible with all screen sizes",
+        "project_5": "This website was creating using HTML and CSS,  with a design created on Figma.This website contains multiple pages. Additionally, this website responsive and compatible with all screen sizes",
+        "project_6": "This website was creating using React Js,  with a design created on Figma.This website contains multiple pages. Additionally, this website responsive and compatible with all screen sizes",
+        "project_7": "This website was creating using React Js,  with a design created on Figma.This website contains multiple pages. Additionally, this website responsive and compatible with all screen sizes, I also integrated APIs to fetch and display data"
+     },
+     "title": "Title:",
+     "description": "Description:",
+     "date": "Date:",
+     "skills": "Skills:",
+     "light_mode": "Light Mode",
+     "dark_mode": "Dark Mode"
+    }
+}

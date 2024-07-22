@@ -1,0 +1,15 @@
+.achievements{
+    height: 350px;
+}
+.achievements ul{
+    gap: 40px;
+}
+/* ==================== Responsive ========================== */
+@media (max-width: 600px){
+    .achievements{
+        height: 250px;
+    }
+    .achievements ul {
+        gap: 10px;
+     }
+}
