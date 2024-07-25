@@ -35,7 +35,7 @@ export const ProjectsData = [
       img3: Project8_3,
       img4: Project8_4,   
       title: "Web Design",
-      skills:"React Js, Responsive design, using Bootstrap",
+      skills:"React Js with Bootstrap, Responsive design",
       date: "24-7-2024",
       github: "https://github.com/ssebag/Palmyra.git",
       web: "https://palmyra.vercel.app/",
