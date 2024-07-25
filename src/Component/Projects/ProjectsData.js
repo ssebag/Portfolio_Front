@@ -22,9 +22,27 @@ import Project6_4 from './../../assets/images/project6/p6-4.png'
 import Project7_1 from './../../assets/images/project7/p7-1.png'
 import Project7_2 from './../../assets/images/project7/p7-2.png'
 import Project7_3 from './../../assets/images/project7/p7-3.png'
-import Project7_4 from './../../assets/images/project7/p7-4.png'
+import Project7_4 from './../../assets/images/project8/p7-4.png'
+import Project8_1 from './../../assets/images/project7/p8-1.png'
+import Project8_2 from './../../assets/images/project8/p8-2.png'
+import Project8_3 from './../../assets/images/project8/p8-3.png'
+import Project8_4 from './../../assets/images/project8/p8-4.png'
+import Project8_5 from './../../assets/images/project8/p8-5.png'
+import Project8_6 from './../../assets/images/project8/p8-6.png'
 
 export const ProjectsData = [
+  {
+      id: 7,  
+      img1: Project8_1,
+      img2: Project8_2,
+      img3: Project8_3,
+      img4: Project8_4,   
+      title: "Web Design",
+      skills:"React Js, Responsive design, using Bootstrap",
+      date: "24-7-2024",
+      github: "https://github.com/ssebag/Palmyra.git",
+      web: "https://palmyra.vercel.app/",
+    }, 
   {
       id: 6,  
       img1: Project4_1,
