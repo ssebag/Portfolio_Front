@@ -32,7 +32,7 @@ import Project8_6 from './../../assets/images/project8/p8-6.png'
 
 export const ProjectsData = [
   {
-      id: 7,  
+      id: 8,  
       img1: Project8_1,
       img2: Project8_2,
       img3: Project8_3,
