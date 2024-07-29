@@ -32,16 +32,13 @@
     left: 65%;
     width: max-content;
   }
-  .personalInfoPara , .introduction{
-    font-size: 16px;
-  }
 }  
 @media (max-width: 768px) {
   .personalInfo {
     left: 70%;
   }
-  .personalInfo p {
-    font-size: 20px;
+  .personalInfoPara {
+    font-size: 38px;
   }
   .personalInfo h1 {
     font-size: 50px;
