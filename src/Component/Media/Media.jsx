@@ -9,7 +9,7 @@ export default function Media() {
   return (
     <div className='media flex-center'>
     <a target="_blank" href="https://www.facebook.com/sseba.gh?mibextid=ZbWKwl">
-      <i className="fa fa-facebook pointer"></i>
+      <i className="fa fa-facebook"></i>
     </a>
     <a target="_blank" href="https://t.me/Ssebagh96">
       <i className="fa fa-telegram pointer" aria-hidden="true"></i>
