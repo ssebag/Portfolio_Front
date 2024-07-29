@@ -9,16 +9,16 @@ export default function Media() {
   return (
     <div className='media flex-center'>
     <a target="_blank" href="https://www.facebook.com/sseba.gh?mibextid=ZbWKwl">
-      <img className="pointer" src={FB} />
+      <i class="fa fa-facebook pointer" aria-hidden="true"></i>
     </a>
     <a target="_blank" href="https://t.me/Ssebagh96">
-      <img className="pointer" src={Telgram} />
+      <i class="fa fa-telegram pointer" aria-hidden="true"></i>
     </a>
     <a target="_blank" href="https://www.instagram.com/sseba_g?igsh=b3ljZmJjb3Y1cGd4">
-      <img className="pointer" src={Insta} />
+      <i class="fa fa-instagram pointer" aria-hidden="true"></i>
     </a>
     <a target="_blank" href="https://api.whatsapp.com/send?phone=+963932531446">
-      <img className="pointer" src={Whatsapp} />
+      <i class="fa fa-whatsapp pointer" aria-hidden="true"></i>
     </a>
     </div>
   )
