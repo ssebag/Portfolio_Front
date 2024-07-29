@@ -2,6 +2,8 @@ import React from 'react'
 import './PersonalImg.css'
 import {motion} from 'framer-motion' 
 import myPhoto from './../../assets/images/MyPhoto.png'
+/* import myPhoto2 from './../../assets/images/ggg.jpg'
+ */
 export default function PersonalImg() {
   return (
       <div className="personalImg">

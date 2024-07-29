@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -11,9 +11,14 @@ function Slider({img1, img2, img3, img4}) {
   return (
     <div className="slider">
        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+         modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={1}
           slidesPerView={1}
+          loop={true}
+          autoplay={{
+            delay:1500,
+            disabledInteraction: false
+          }}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}

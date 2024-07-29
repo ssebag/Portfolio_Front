@@ -25,8 +25,8 @@ import Project7_3 from './../../assets/images/project7/p7-3.png'
 import Project7_4 from './../../assets/images/project7/p7-4.png'
 import Project8_1 from './../../assets/images/project8/p8-1.png'
 import Project8_2 from './../../assets/images/project8/p8-2.png'
-import Project8_3 from './../../assets/images/project8/p8-3.png'
-import Project8_4 from './../../assets/images/project8/p8-4.png'
+import Project8_3 from './../../assets/images/project8/p8-5.png'
+import Project8_4 from './../../assets/images/project8/p8-3.png'
 export const ProjectsData = [
   {
       id: 8,  
