@@ -32,7 +32,7 @@
     left: 65%;
     width: max-content;
   }
-  personalInfoPara, .introduction{
+  .personalInfoPara , .introduction{
     font-size: 16px;
   }
 }  
