@@ -12,10 +12,10 @@ export default function Contact() {
     <div className="contact" id="contact">
       <Title title={t("navbar.Contacts")} description={t("contacts.description")} />
       <div className="contactDivs">
-       <ContactCard icon="L"  title={t("contacts.address")} description={t("contacts.address_info")} />
-       <ContactCard icon="Ph" title={t("contacts.phone")} description="00963932531446" />
-       <ContactCard icon="G"  title={t("contacts.email")} description="s.sseba96@gmail.com" />
-       <a target="_blank" href={myCV} download={myCV}><ContactCard icon="CV"  title="CV" description={t("contacts.cv")} /></a>
+       <ContactCard icon="fa fa-map-marker"  title={t("contacts.address")} description={t("contacts.address_info")} />
+       <ContactCard icon="fa fa-phone" title={t("contacts.phone")} description="00963932531446" />
+       <ContactCard icon="fa fa-envelope"  title={t("contacts.email")} description="s.sseba96@gmail.com" />
+       <a target="_blank" href={myCV} download={myCV}><ContactCard icon="fa fa-folder-open"  title="CV" description={t("contacts.cv")} /></a>
       </div>
     </div>
   )

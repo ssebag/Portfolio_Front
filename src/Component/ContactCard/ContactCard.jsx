@@ -7,9 +7,7 @@ export default function ContactCards({icon, title, description}) {
   return (
     <div className="contactCard flex-center">
        <div className="contactIcon flex-center">
-         <p className='contactIconP'>
-           {icon}
-         </p>
+         <i className={`${icon} contactIconP`}></i>
        </div> 
         <div className={`contactDetails flex-col ${lang ==='ar' ? 'arabic' : ''}`}>
             <h3>{title}</h3>

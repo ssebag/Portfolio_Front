@@ -19,6 +19,7 @@
   line-height: 25.6px;
   color: var(--gray-color);
   font-family: "Inter", sans-serif;
+  max-width: 320px;
 }
 .projectCard button{
     border: none;
