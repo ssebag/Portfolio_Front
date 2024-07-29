@@ -27,14 +27,17 @@ export default function PersonalInfo() {
   const {t} = useContext(LangContext);
   return (
     <div className="personalInfo flex-col">
-        <p>{t("personality.welcome")}</p>
+        <p className='personalInfoPara'>{t("personality.welcome")}</p>
         <motion.h1 variants={textVariants} initial="hidden" animate="visible">
           {t("personality.myName").split("").map((char, index)=>
             <motion.span key={index} variants={nameVariants}>{char}</motion.span>
            )}
         </motion.h1>
        
-        <p>Front-end Developer</p>
+        <p className='personalInfoPara'>Front-end Developer & Freelancer</p>
+        <br />
+        <p className='introduction'>{t("personality.introduction")}</p>
+
     </div>
   )
 }

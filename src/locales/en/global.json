@@ -9,10 +9,11 @@
      },
      "personality" :{
         "welcome": "Hello, I'm",
-        "myName": "Seba Ghneem"
+        "myName": "Seba Ghneem",
+        "introduction": "Welcome to my portfolio!"
     },
      "about":{
-        "personalInfo":"I am a front-end developer using React JS. I have a real passion in this field, so I work hard to give my best and at the same time I want to increase my experience. I'm a self-learned, organized, hardworking person.",
+        "personalInfo":"I am a creative Frontend Developer working as a freelance. I have a real passion in this field, I am passionate about turning ideas into stunning websites, with a strong focus on details and quality. I continuously strive to learn and implement new technologies to achieve the best possible results. I'm a self-learned, organized, hardworking person.",
         "Education" : "Education",
         "EducationInfo": "Bachelor's degree in Information Technology Engineering",
         "EducationUniversity": "Damascus University [2015 - 2021]"
