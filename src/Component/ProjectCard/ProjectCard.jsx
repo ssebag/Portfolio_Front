@@ -18,7 +18,7 @@ export default function ProjectCard({data}) {
     <div className="projectCard">
        <div className='projectInfo' id='projectInfo' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
              <img  src={img1} />
-           {isHovered ? (<div className='projectSkills' id='projectSkills'></div>) }
+         
        </div>
        <div className="flex-col">
          <h2>{title}</h2>
