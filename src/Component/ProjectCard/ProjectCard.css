@@ -47,7 +47,6 @@
    position: relative;
 }
 .projectSkills{
-    display: none;
     position: absolute;
     background-color: black;
     width: 100%;
