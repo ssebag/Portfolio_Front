@@ -8,7 +8,7 @@ export default function ProjectCard({data}) {
   
   return (
     <div className="projectCard">
-       <div className='projectInfo' id='projectInfo' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+       <div className='projectInfo' id='projectInfo'>
           <img  src={img1} />
        </div>
        <div className="flex-col">
