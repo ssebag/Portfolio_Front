@@ -1,4 +1,4 @@
-import React,{ useContext، useState} from 'react'
+import React,{ useState } from 'react'
 import './ProjectCard.css'
 
 export default function ProjectCard({data}) {
