@@ -2,11 +2,14 @@ import React,{ useContext} from 'react'
 import './ProjectCard.css'
 
 export default function ProjectCard({data}) {
- 
-  const {img1, title, id, github, web} = data;
+
+  const {img1, title, github, web} = data;
   return (
     <div className="projectCard">
-       <img  src={img1} />
+       <div className='projectInfo' id='projectInfo'>
+          <img  src={img1} />
+          <div className='projectSkills' id='projectSkills'></div>
+       </div>
        <div className="flex-col">
          <h2>{title}</h2>
          <div className='cardButtons'>
@@ -23,3 +26,4 @@ export default function ProjectCard({data}) {
     </div>
   )
 }
+ 

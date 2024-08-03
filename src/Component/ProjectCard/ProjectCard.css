@@ -43,6 +43,19 @@
     gap: 25px;
     padding-top: 20px;
 }
+.projectInfo{
+   position: relative;
+}
+.projectSkills{
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    z-index: 10000;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 /* =========================== Responsive ============================= */
 @media screen and (max-width:500px){
     .projectCard{
