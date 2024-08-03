@@ -5,15 +5,7 @@ export default function ProjectCard({data}) {
 
   const {img1, title, github, web} = data;
   
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-        setIsHovered(true);
-    };
-
-   const handleMouseLeave = () => {
-        setIsHovered(false);
-    };
+  
   return (
     <div className="projectCard">
        <div className='projectInfo' id='projectInfo' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
