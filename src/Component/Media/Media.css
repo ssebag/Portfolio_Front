@@ -2,7 +2,6 @@
     gap:10px;
     height: 100%;
 }
-.media img{
-    height:30px;
-    width:30px;
+.media .icon{
+    color: var(--purple-color);
 }

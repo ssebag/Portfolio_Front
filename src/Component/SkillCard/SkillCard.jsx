@@ -8,8 +8,8 @@ export default function SkillCard({ skill,  progress}) {
   return (
     <>
      <div className={`skillCard flex-center flex-col ${theme ==="light" ?  ' ' : 'dark'}`}> 
-        <p class="skill-title">{skill}</p>
-        <p class="progress-div" data-progress={progress} style={{"--progress": progress }}>{progress}</p>    
+        <p className="skill-title">{skill}</p>
+        <p className="progress-div" data-progress={progress} style={{"--progress": progress }}>{progress}</p>    
       </div>
     </>
   );
