@@ -1,18 +1,24 @@
 import React,{ useContext} from 'react'
 import './ProjectCard.css'
-import { Link } from "react-router-dom";
-import {LangContext} from './../../i18n';
 
 export default function ProjectCard({data}) {
-  const { t } = useContext(LangContext);
  
-  const {img1, title, id} = data;
+  const {img1, title, id, github, web} = data;
   return (
     <div className="projectCard">
        <img  src={img1} />
        <div className="flex-col">
          <h2>{title}</h2>
-           <button><Link to={`/project/${id}`}>{t("project.read_more")}</Link></button>
+         <div className='cardButtons'>
+            <button className='flex-center'>
+                  <i className="fab fa-github pointer text-light"></i>
+                  <a target="blank" href={github}>Code</a>
+              </button>
+              <button className='flex-center'>
+                  <i className="fa fa-globe pointer" ></i>
+                  <a target="blank" href={web}>Demo</a>
+              </button>
+         </div> 
        </div>
     </div>
   )

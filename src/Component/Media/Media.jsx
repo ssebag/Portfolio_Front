@@ -1,9 +1,5 @@
 import React from 'react'
 import './Media.css'
-import FB from './../../assets/images/media/FB.jpg'
-import Telgram from './../../assets/images/media/Telgram.jpg'
-import Insta from './../../assets/images/media/Insta.jpg'
-import Whatsapp from './../../assets/images/media/Whatsapp.jpg'
 
 export default function Media() {
   return (

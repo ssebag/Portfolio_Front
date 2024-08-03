@@ -1,8 +1,6 @@
 import React, { useContext }  from 'react';
 import './ProjectsDetails.css';
 import Slider from './../Slider/Slider';
-import Github from './../../assets/images/icons/github.jpg'
-import Website from './../../assets/images/icons/website.jpg'
 import {LangContext} from './../../i18n';
 
 export default function ProjectsDetails({details, description}) {
@@ -34,12 +32,12 @@ export default function ProjectsDetails({details, description}) {
             <div className="projectLinks flex-center">
                 <div className="github">
                   <a target="blank" href={github}>
-                     <img src={Github} className="pointer" />
+                    
                   </a>
                 </div>
                 <div className="web">
                   <a target="blank" href={web}>
-                     <img src={Website} className="pointer" />
+                   
                   </a>
                 </div>
             </div>

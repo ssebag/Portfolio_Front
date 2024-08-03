@@ -21,15 +21,21 @@
   font-family: "Inter", sans-serif;
   max-width: 320px;
 }
+.projectCard .cardButtons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 .projectCard button{
     border: none;
     height: 45px;
-    width: 125px;
+    width: 98px;
     background-color: var(--purple-color);
     border-radius: 5px;
     font-size: 16px;
+    gap: 10px;
 }
-.projectCard button a{
+.projectCard button a, .projectCard svg{
     color: var(--White-color);
 }
 .projectCard .flex-col{
