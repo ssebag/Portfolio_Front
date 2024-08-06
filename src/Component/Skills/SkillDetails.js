@@ -21,7 +21,7 @@ export const SkillsDetails=[
     },
     {
         skill: 'ReactJs',
-        progress:'70%'
+        progress:'75%'
     },
     {
         skill: 'Figma',
