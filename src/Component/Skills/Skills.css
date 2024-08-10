@@ -1,21 +1,7 @@
 .skills .cards{
     flex-wrap: wrap;
-    gap: 55px;
+    gap: 30px;
 }
 .skills{
     position: relative;
-}
-.skills .swiper,.skills .swiper-wrapper {
-    position: static;
-}
-.skills .swiper-button-prev, .skills .swiper-button-next{
-    color: white;
-    z-index: 5000;
-    background: var(--purple-color);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-.skills .swiper-button-prev::after, .skills .swiper-button-next::after{
-    font-size: 25px;
 }

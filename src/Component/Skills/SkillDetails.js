@@ -13,7 +13,7 @@ export const SkillsDetails=[
     },
     {
         skill: 'Bootstrap',
-        progress:'85%'
+        progress:'90%'
     },
     {
         skill: 'Tailwind',
@@ -21,7 +21,7 @@ export const SkillsDetails=[
     },
     {
         skill: 'ReactJs',
-        progress:'75%'
+        progress:'85%'
     },
     {
         skill: 'Figma',
