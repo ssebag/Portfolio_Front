@@ -1,7 +1,8 @@
  .skill_name, .dark .skill_name{
   font-family: "Edu NSW ACT Foundation", cursive;
   color: var(--purple-color) !important;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 600;
  } 
  .progress{
   height: 15px;
