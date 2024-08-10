@@ -9,7 +9,7 @@ export default function Skills() {
   const { t } = useContext(LangContext);
   return (
     <div className="containerSection skills" id="skills">
-       <Title title={t("navbar.Skills")} />
+       <Title title={t("navbar.Skills")} description={t("skillsDescription")}/>
        <div className="cards flex-col">
   
            {

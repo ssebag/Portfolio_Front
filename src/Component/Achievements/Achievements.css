@@ -15,4 +15,7 @@
     .achievements .swiper{
         width: 300px;
     }
+    .achievements .card-text{
+        font-size: 12px;
+    }
 }

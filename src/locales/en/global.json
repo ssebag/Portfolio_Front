@@ -47,6 +47,7 @@
      "description": "Description:",
      "date": "Date:",
      "skills": "Skills:",
+     "skillsDescription":"I use these language and techniques to design and develope websites",
      "light_mode": "Light Mode",
      "dark_mode": "Dark Mode"
     }
