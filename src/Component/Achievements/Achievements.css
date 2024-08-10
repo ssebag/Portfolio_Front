@@ -1,15 +1,18 @@
-.achievements{
-    height: 350px;
+.achievement_swiper{
+    margin: 0 auto;
 }
-.achievements ul{
-    gap: 40px;
+.achievements .swiper{
+    width: 450px;
+}
+.achievements .card{
+    border: 5px solid var(--purple-color);
+}
+.achievements .card-text{
+    color:#50446a !important;
 }
 /* ==================== Responsive ========================== */
 @media (max-width: 600px){
-    .achievements{
-        height: 250px;
+    .achievements .swiper{
+        width: 300px;
     }
-    .achievements ul {
-        gap: 10px;
-     }
 }

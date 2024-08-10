@@ -24,9 +24,8 @@
            "read_more": "معرفة المزيد"
         },
         "achievements":{
-           "achievement_1_date": "تعلم ذاتي [2022 - 2023]",
-           "achievement_2_date": " [2023 - 2024] Vica web solution"
-        },
+           "achievement_vica": "خلال فترة تدريب لمدة 4 أشهر في Vica Web Solution، اكتسبت خبرة قيمة في تطوير الواجهة الأمامية باستخدام تقنيات مختلفة مثل Html وCss وJavaScript وBootstrap وTailwind وReact Js وتعلمت كيفية العمل مع واجهات برمجة التطبيقات والتفاعل مع Github لإدارة المشاريع بفعالية. كان التدريب مليئًا بالمعلومات القيمة ومشاريع الممارسة المفيدة."
+         },
         "contacts":{
             "description": "يمكنكم الاتصال بي من خلال هذه المعلومات",
             "address": "العنوان",

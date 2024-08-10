@@ -23,8 +23,7 @@
         "read_more": "Read more"
      },
      "achievements":{
-        "achievement_1_date": "self-learning [2022 - 2023]",
-        "achievement_2_date": "at Vica web solution [2023 - 2024]"
+        "achievement_vica": "During a 4 month training period at Vica Web Solution I gained valuable experience in frontend development using various technologies such as Html, Css, JavaScript, Bootstrap, Tailwind, React Js and I learned  how to work with APIs and interact with Github to effectively manage projects. The training was full of valuable information and useful practice projects."
      },
      "contacts":{
         "description": "You can contact me through this information",
