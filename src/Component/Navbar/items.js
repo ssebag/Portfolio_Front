@@ -12,7 +12,7 @@ export const Items = [
       path: "#projects",
     },
     {
-      title: "Achievements and Certificates",
+      title: "Achievements",
       path: "#achievements",
     },
     {

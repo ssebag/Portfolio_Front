@@ -73,12 +73,12 @@ export default function Navbar() {
               {
                 theme == 'dark' ? (
                   <>
-                    <p>{t("light_mode")}</p>
+                    <p className='mode_paragraph'>{t("light_mode")}</p>
                     <img src={sun} />
                   </>
                 ):(
                   <>
-                    <p>{t("dark_mode")}</p>
+                    <p className='mode_paragraph'>{t("dark_mode")}</p>
                     <img src={moon} />
                   </>  
                 )

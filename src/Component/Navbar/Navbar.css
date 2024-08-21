@@ -29,6 +29,7 @@ nav{
   border-radius: 2%;
   box-shadow: 0px 0px 30px var(--purple-color);
 }
+
 .nav-mobile ul{
   border-bottom: 1px solid var(--purple-color);
   padding-bottom: 20px;
@@ -44,6 +45,9 @@ nav{
 }
 .forMobile{
   gap: 15px;
+}
+.mode_paragraph{
+  margin-bottom: 0;
 }
 .navOption{
   gap:20px;
