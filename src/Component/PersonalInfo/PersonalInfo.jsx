@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import  './PersonalInfo.css'
-import {motion} from 'framer-motion' 
+import {motion, transform} from 'framer-motion' 
 import {LangContext} from './../../i18n';
 export default function PersonalInfo() {
   //======================= for animation ===========================
@@ -23,6 +23,21 @@ export default function PersonalInfo() {
       opacity: 1,
     },
   };
+
+  /* ================= for move hand ================ */
+  const hand = document.getElementById('hand');
+  let isMoved = false;
+  
+  setInterval(() => {
+      if (isMoved) {
+          hand.style.transform = 'translateY(0px)'; 
+      } else {
+          hand.style.transform = 'translateY(40px)'; 
+      }
+      isMoved = !isMoved; 
+  }, 1000); 
+
+
   //========================= for translation ==============================
   const {t} = useContext(LangContext);
   return (
@@ -37,7 +52,7 @@ export default function PersonalInfo() {
         <p className='personalInfoPara'>Front-end Developer & Freelancer</p>
         <br />
         <p className='introduction'>{t("personality.introduction")}</p>
-
+        <i class="fa-regular fa-hand-point-down" id="hand"></i>
     </div>
   )
 }

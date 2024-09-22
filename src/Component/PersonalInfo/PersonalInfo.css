@@ -27,6 +27,12 @@
   font-weight: 600;
   color: var(--gray-color);
 }
+#hand{
+  margin-top: 10px;
+  font-size: 40px;
+  color: var(--purple-color);
+  transition: transform 1s ease;
+}
 /* =================================== Responsive ============================== */
 @media (max-width: 992px) {
   .personalInfoPara {
