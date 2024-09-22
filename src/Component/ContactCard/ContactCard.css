@@ -1,35 +1,46 @@
 .contactCard{
-    height: 96px;
-    border-radius: 10px 0px 0px 0px;
-    box-shadow: 0px 10px 40px 0px var(--Black-color);
+    height: 140px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 0px 0px 15px 0px var(--Black-color);
     width: 280px;
     justify-content: space-around;
+    position: relative;
 }
-.contactDetails{
+.contactDetails {
     gap: 15px;
+    margin-top: 15px;
+    text-align: center;
 }
 .contactDetails h3{
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 20px;
     color: var(--gray-color);
-    text-shadow:0px 0px 10px var(--purple-color)
 }
 .contactDetails p{
     font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
     line-height: 24px;
     color: #132238;    
 }
 .contactIcon{
     background-color: var(--purple-color);
-    height: 40px;
-    width: 44px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
 }
 .contactIconP{
    font-size: 20px;
    font-weight: 600;
    color: var(--White-color);
+}
+@media screen and (max-width: 768px){
+    .contactDivs {
+        margin-top: 45px;
+    }
 }

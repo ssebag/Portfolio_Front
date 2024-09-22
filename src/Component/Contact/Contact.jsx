@@ -11,6 +11,8 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <Title title={t("navbar.Contacts")} description={t("contacts.description")} />
+      {/* "Whetther you have a question, suggestion, or just want to say hello."
+ */}
       <div className="contactDivs">
        <ContactCard icon="fa fa-map-marker"  title={t("contacts.address")} description={t("contacts.address_info")} />
        <ContactCard icon="fa fa-phone" title={t("contacts.phone")} description="00963932531446" />
