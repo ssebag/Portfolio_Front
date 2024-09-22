@@ -11,7 +11,6 @@ export default function AboutMe() {
     <div className={`containerSection aboutMe flex-col secBackground ${lang ==='ar' ? 'arabic' : ''}`} id="about">
       <div className="background_black"></div>
       <div className="myInfo">
-        <Title nameClass="titlePosition" title={t("navbar.About")} />
           <p className="education_achievements_desc">
             {t("about.personalInfo")}
           </p>

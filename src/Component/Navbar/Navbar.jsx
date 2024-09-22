@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={lang ==="ar" ? 'arabic' : ''}>
-         <div className="container flex-bw">
+         <div className="flex-bw">
             <NavItems navClass={"nav-items pointer flex-al-c"}/>
            <div className="navOption flex-al-c">
            <div className='mode pointer' onClick={ToggleChangeMode}>

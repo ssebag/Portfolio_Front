@@ -1,54 +1,56 @@
 .personalInfo{
-  height: 50vh;
   position: absolute;
   top: 50%;
-  left: 55%;
+  left: 50%;
   transform: translate(-50%,-50%);
-  display: flex;
-  gap: 20px;
+  gap: 15px;
+  text-align: center;
+  width: max-content;
 }
 .personalInfo h1{
-    color: var(--purple-color);
-    font-size: 60px;
-    /* font-family: 'Yesteryear', cursive; */
-    font-family: "Inter", sans-serif;
+  color: var(--purple-color);
+  font-size: 72px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  border-bottom: 5px solid var(--purple-color);
+  border-top: 5px solid var(--purple-color);
 }
 .personalInfoPara{
   color: var(--Black-color);
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 800;
   font-family: "Edu NSW ACT Foundation", cursive;
 }
 .introduction {
   font-family: "Inter", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--gray-color);
 }
 /* =================================== Responsive ============================== */
 @media (max-width: 992px) {
-  .personalInfo {
-    height: 35vh;
-    left: 65%;
-    width: max-content;
-  }
-}  
-@media (max-width: 768px) {
-  .personalInfo {
-    left: 70%;
-  }
   .personalInfoPara {
-    font-size: 25px;
+    font-size: 36px;
   }
   .personalInfo h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
-}
+  .introduction {
+    font-size: 16px;
+  }
+}  
 @media (max-width: 600px) {
-  .personalInfo{
-    position: static;
-    height: 20vh;
-    transform: none;
+  .introduction {
+    font-size: 12px;
   }
+  .personalInfo{
+    gap: 5px;
+  }  
+  .personalInfoPara {
+    font-size: 22px;
+  }
+  .personalInfo h1 {
+    font-size: 40px;
+  } 
 }
-  
+

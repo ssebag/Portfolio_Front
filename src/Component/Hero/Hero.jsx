@@ -6,7 +6,7 @@ import PersonalInfo from './../PersonalInfo/PersonalInfo'
 export default function Hero() {
   return (
     <div className="hero">
-      <PersonalImg />
+      {/* <PersonalImg /> */}
       <PersonalInfo />
     </div>
   )
