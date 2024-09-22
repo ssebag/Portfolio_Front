@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <div className="containerSection skills" id="skills">
        <Title title={t("navbar.Skills")} description={t("skillsDescription")}/>
-       <div className="cards flex-col">
+       <div className="cards">
   
            {
           SkillsDetails.map((el, idx) =>{
