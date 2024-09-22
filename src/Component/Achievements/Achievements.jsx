@@ -17,7 +17,7 @@ export default function Achievements() {
   return (
     <div className={`containerSection achievements secBackground ${lang ==='ar' ? 'arabic' : ''}`}  id="achievements">
       <div className="background_black"></div>
-      <Title nameClass="titlePosition" title={t("navbar.Achievements and Certificates")} />
+      <Title nameClass="titlePosition" title={t("navbar.Achievements")} />
       <div className='achievement_swiper'>
         <Swiper
             modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
