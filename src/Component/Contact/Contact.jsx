@@ -15,7 +15,7 @@ export default function Contact() {
  */}
       <div className="contactDivs">
        <ContactCard icon="fa fa-map-marker"  title={t("contacts.address")} description={t("contacts.address_info")} />
-       <ContactCard icon="fa fa-phone" title={t("contacts.phone")} description="00963932531446" />
+       <ContactCard icon="fa fa-phone" title={t("contacts.phone")} description="(+963) 932531446" />
        <ContactCard icon="fa fa-envelope"  title={t("contacts.email")} description="s.sseba96@gmail.com" />
        <a target="_blank" href={myCV} download={myCV}><ContactCard icon="fa fa-folder-open"  title="CV" description={t("contacts.cv")} /></a>
       </div>
