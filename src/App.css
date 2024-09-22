@@ -75,7 +75,7 @@ a{
     color: var(--White-color) !important ;
 }
 .dark .contactCard {
-    box-shadow: 0px 0px 40px 0px var(--purple-color);
+    box-shadow: 0px 0px 15px 0px var(--purple-color);
 }
 .dark .education_achievements_desc{
     color: var(--Black-color) !important;

@@ -1,9 +1,48 @@
 .aboutMe{
-    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutLeft{
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.aboutRight{
+  width: 70%;
+  justify-content: space-between;
+}
+.AboutPersonalInfo h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--Black-color) !important;
+    font-family: "Inter", sans-serif;
+}
+.AboutPersonalInfo p{
+    font-size: 24px;
+    color: var(--Black-color) !important;
+    font-family: "Inter", sans-serif;
 }
 /* ================================== Responsive ============================= */
+@media (max-width: 992px){
+    .aboutMe {
+        flex-direction: column;
+      }
+    .aboutLeft ,.aboutRight {
+        width: auto;
+        text-align: center;
+    }
+    .displayNone{
+        display: none;
+    }
+}
 @media (max-width: 768px){
     .aboutMe {
         padding: 20px 5.5vw;
     }  
+    .AboutPersonalInfo p {
+        font-size: 20px;
+    }
 }
