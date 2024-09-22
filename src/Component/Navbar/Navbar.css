@@ -18,24 +18,23 @@ nav{
 /*  ================================= For Mobil ================================== */
 .nav-mobile{
   position: fixed;
-  top: 36px;
+  top: 10px;
   right: 0;
-  width: 246px;
-  height: calc(100vh - 36px);
-  padding-top:90px;
+  width: 225px;
+  padding: 40px;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
   background-color: var(--White-color);
   border-radius: 2%;
   box-shadow: 0px 0px 30px var(--purple-color);
 }
-
-.nav-mobile ul{
+.nav-mobile ul {
   border-bottom: 1px solid var(--purple-color);
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+  width: 100%;
 }
 .nav-mobile-items {
-  gap: 40px;
+  gap: 30px;
 }
 .close-icon{
   position: absolute;

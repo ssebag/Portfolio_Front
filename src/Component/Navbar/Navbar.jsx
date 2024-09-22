@@ -37,7 +37,7 @@ export default function Navbar() {
                 )
               }
             </div>
-            <div className="lang" onClick={handleChangeLanguage}>
+           {/*  <div className="lang" onClick={handleChangeLanguage}>
               {
                   lang == 'ar' ? (
                     <img className='forWeb pointer' src={En} />
@@ -45,7 +45,7 @@ export default function Navbar() {
                     <img className='forWeb pointer' src={Ar} />
                   )
                }
-            </div> 
+            </div>  */}
            </div>
             <img
              src={menu_icon} 
@@ -59,7 +59,7 @@ export default function Navbar() {
                  onClick={handleToggleNav}>
                 X
               </p>
-              <div className="lang flex-al-c" onClick={handleChangeLanguage}>
+            {/*   <div className="lang flex-al-c" onClick={handleChangeLanguage}>
                 {
                     lang == 'ar' ? (
                       <img className='forMobile pointer' src={En} />
@@ -67,7 +67,7 @@ export default function Navbar() {
                       <img className='forMobile pointer' src={Ar} />
                     )
                 }
-              </div> 
+              </div>  */}
             <NavItems navClass={"nav-mobile-items flex-al-c flex-col"} />
             <div className='forMobile flex-al-c  pointer' onClick={ToggleChangeMode}>
               {
