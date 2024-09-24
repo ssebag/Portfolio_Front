@@ -1,26 +1,63 @@
 import React , {useContext} from 'react'
-import { Fragment } from "react";
 import { ProjectsData } from './ProjectsData.js'
 import './Projects.css'
 import Title from './../Title/Title'
 import ProjectCard from './../ProjectCard/ProjectCard'
 import {LangContext} from './../../i18n';
+import { Navigation, Pagination, Scrollbar, A11y} from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 export default function Projects() {
   const { t } = useContext(LangContext);
- 
+  const handRight = document.getElementById('handRight');
+  let isMoved = false;
+  
+  setInterval(() => {
+      if (isMoved) {
+          handRight.style.transform = 'translateX(0px)'; 
+      } else {
+          handRight.style.transform = 'translateX(100px)'; 
+      }
+      isMoved = !isMoved; 
+  }, 1000); 
+
   return (
     <div className="containerSection projects" id="projects">
      <Title title={t("navbar.Projects")} description={t("project.proDescription")} />
+     <i class="fa-regular fa-hand-point-right" id="handRight"></i>
       <div className="projectCards flex-center">
-        {ProjectsData.map((el, idx) => {
+      <Swiper
+         modules={[ Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={1}
+          slidesPerView={3}
+          loop={true}
+          breakpoints={{
+            300: {
+                slidesPerView: 1,
+            },
+           800: {
+                slidesPerView: 2,
+            },
+            1120: {
+                slidesPerView: 3,
+            },
+            }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log('slide change')}
+      >
+         {ProjectsData.map((el, idx) => {
             return (
-              <Fragment key={idx}>
+              <SwiperSlide>
                 <ProjectCard data={el}/>
-              </Fragment>
+                </SwiperSlide>
             );
           })}
-      </div>
+          </Swiper>
+     </div>
     </div>
   )
 }

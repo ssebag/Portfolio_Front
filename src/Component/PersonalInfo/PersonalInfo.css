@@ -47,13 +47,13 @@
 }  
 @media (max-width: 600px) {
   .introduction {
-    font-size: 12px;
+    font-size: 18px;
   }
   .personalInfo{
     gap: 5px;
   }  
   .personalInfoPara {
-    font-size: 16px;
+    font-size: 24px;
   }
   .personalInfo h1 {
     font-size: 40px;
