@@ -13,22 +13,10 @@ import 'swiper/css/scrollbar';
 
 export default function Projects() {
   const { t } = useContext(LangContext);
-  const handRight = document.getElementById('handRight');
-  let isMoved = false;
   
-  setInterval(() => {
-      if (isMoved) {
-          handRight.style.transform = 'translateX(0px)'; 
-      } else {
-          handRight.style.transform = 'translateX(100px)'; 
-      }
-      isMoved = !isMoved; 
-  }, 1000); 
-
   return (
     <div className="containerSection projects" id="projects">
      <Title title={t("navbar.Projects")} description={t("project.proDescription")} />
-     <i class="fa-regular fa-hand-point-right" id="handRight"></i>
       <div className="projectCards flex-center">
       <Swiper
          modules={[ Navigation, Pagination, Scrollbar, A11y]}
