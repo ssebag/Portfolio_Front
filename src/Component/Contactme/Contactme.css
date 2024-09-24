@@ -1,3 +1,6 @@
+.contactMe{
+  position: relative;
+}
 .contactMe form{
   width: 50%;
   gap: 25px;
@@ -29,6 +32,16 @@
   height: 55px;
   font-size: 20px;
   font-weight: 600;
+}
+.notification{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-140%);
+    background: var(--purple-color);
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 16px;
 }
 @media screen and (max-width:768px){
   .contactMe form{
