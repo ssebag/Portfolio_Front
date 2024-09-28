@@ -4,7 +4,7 @@ const DarkModeContext = createContext();
 
 function DarkModeProvider(props){
 
-    const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme"):"light");
+    const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme"):"dark");
     localStorage.setItem("theme", theme);
   
     function ToggleChangeMode() {
