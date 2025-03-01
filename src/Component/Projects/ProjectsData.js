@@ -8,15 +8,6 @@ import Project7 from './../../assets/images/p7-1.png'
 import Project8 from './../../assets/images/p8-1.png'
 export const ProjectsData = [
   {
-      id: 8,  
-      img1: Project8,   
-      title: "Web Design",
-      skills:"React Js with Bootstrap, Responsive design",
-      date: "24-7-2024",
-      github: "https://github.com/ssebag/Palmyra.git",
-      web: "https://palmyra.vercel.app/",
-    }, 
-  {
       id: 6,  
       img1: Project4,   
       title: "Web Design",
@@ -34,6 +25,15 @@ export const ProjectsData = [
       github: "https://github.com/ssebag/ST-Training-L2-Task6",
       web: "https://st-task6-sebaghs-projects.vercel.app/",
     },   
+    {
+      id: 8,  
+      img1: Project8,   
+      title: "Web Design",
+      skills:"React Js with Bootstrap, Responsive design",
+      date: "24-7-2024",
+      github: "https://github.com/ssebag/Palmyra.git",
+      web: "https://palmyra.vercel.app/",
+    }, 
     {
       id: 5,  
       img1: Project3,
