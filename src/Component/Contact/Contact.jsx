@@ -12,7 +12,7 @@ export default function Contact() {
   
   return (
     <div className="contact" id="contact">
-      <Title title={t("navbar.Contacts")} description="You can contact me through this information. Whether you have a question, suggestion, or just want to say hello." />
+      <Title title={t("navbar.Contacts")} description={t("contacts.description")} />
       <Contactme /> 
       <div className="contactDivs">
        <ContactCard icon="fa fa-map-marker"  title={t("contacts.address")} description={t("contacts.address_info")} />

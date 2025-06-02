@@ -12,26 +12,30 @@
         "myName": "Seba Ghneem",
         "introduction": "Welcome to my portfolio!"
     },
-     "about":{
-        "personalInfo":"I am a creative Frontend Developer working as a freelance. I have a real passion in this field, I am passionate about turning ideas into stunning websites, with a strong focus on details and quality. I continuously strive to learn and implement new technologies to achieve the best possible results. I'm a self-learned, organized, hardworking person.",
-        "Education" : "Education",
-        "EducationInfo": "Bachelor's degree in Information Technology Engineering",
-        "EducationUniversity": "Damascus University [2015 - 2021]"
-     },
+    "about":{
+      "position": "Fontend Developer",
+      "using" : "Using React Js",
+      "descriptionUp": "I am a software engineer. I studied at the Faculty of Information Technology Engineering at Damascus University, specializing in software.",
+      "descriptionDown": "I am a creative Frontend Developer working as a freelance. I have a real passion in this field, I am passionate about turning ideas into stunning websites, with a strong focus on details and quality. I continuously strive to learn and implement new technologies to achieve the best possible results. I'm a self-learned, organized, hardworking person."
+   },
      "project":{
-        "proDescription":"Here are many websites that I have developed, sorted from the oldest to the newest. Swipe to show more.",
+        "proDescription":"Here are many websites that I have developed, sorted from the newest to the oldest. Swipe to show more.",
         "read_more": "Read more"
      },
      "achievements":{
         "achievement_vica": "During a 4 month training period at Vica Web Solution I gained valuable experience in frontend development using various technologies such as Html, Css, JavaScript, Bootstrap, Tailwind, React Js and I learned  how to work with APIs and interact with Github to effectively manage projects. The training was full of valuable information and useful practice projects."
      },
      "contacts":{
-        "description": "You can contact me through this information",
+        "description": "You can contact me through this information. Whether you have a question, suggestion, or just want to say hello.",
         "address": "Address",
         "address_info": "Syria, Damascus",
         "phone": "Call Me",
         "email": "Send A Message",
-        "cv": "Press to download"
+        "cv": "Press to download",
+        "your_name":"Your Name",
+        "your_email":"Your Email",
+        "your_message":"Your Message",
+        "send":"Send"
      },
      "projectDetails":{
         "project_1": "In this website, I was a beginner in HTML and CSS, and I create this page as a self-learning test",

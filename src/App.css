@@ -12,7 +12,9 @@
     --Black-color:#2f2f2f;
     --White-color:#ffffff;
     --gray-color:#7d7d7d;
-    --purple-color: #9c89c7;
+    --purple-color: #8a658d;
+    --light-purple-color: #bcacbc;
+
 }
 html{
     scroll-behavior: smooth;
@@ -102,10 +104,11 @@ a{
 }   
 /* ============================= For education and achievements description ======================  */
 .secBackground{
-    background-image: url('./assets/images/Background.jpg');
+    /* background-image: url('./assets/images/Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top; */
+    background-color: var(--light-purple-color);
     position:relative;
 }
 .titlePosition{

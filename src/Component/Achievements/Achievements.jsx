@@ -15,7 +15,7 @@ export default function Achievements() {
   const lang= localStorage.getItem("language");
 
   return (
-    <div className={`containerSection achievements secBackground ${lang ==='ar' ? 'arabic' : ''}`}  id="achievements">
+    <div className="containerSection achievements secBackground"   id="achievements">
       <div className="background_black"></div>
       <Title nameClass="titlePosition" title={t("navbar.Achievements")} />
       <div className='achievement_swiper'>
@@ -38,7 +38,7 @@ export default function Achievements() {
             <div className="card">
               <img className='card-img-top' src={Vica_certificate} />
               <div className='card-body'>
-                <p className='card-text'>
+                <p className={`card-text ${lang ==='ar' ? 'arabic' : ''}`}>
                   {t("achievements.achievement_vica")}
                 </p>
               </div>

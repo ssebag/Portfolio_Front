@@ -24,7 +24,7 @@ export default function Navbar() {
  const { t } = useContext(LangContext);
   return (
     <>
-      <nav className={lang ==="ar" ? 'arabic' : ''}>
+      <nav>
          <div className="flex-bw">
             <NavItems navClass={"nav-items pointer flex-al-c"}/>
            <div className="navOption flex-al-c">
@@ -37,7 +37,7 @@ export default function Navbar() {
                 )
               }
             </div>
-           {/*  <div className="lang" onClick={handleChangeLanguage}>
+             <div className="lang" onClick={handleChangeLanguage}>
               {
                   lang == 'ar' ? (
                     <img className='forWeb pointer' src={En} />
@@ -45,7 +45,7 @@ export default function Navbar() {
                     <img className='forWeb pointer' src={Ar} />
                   )
                }
-            </div>  */}
+            </div> 
            </div>
             <img
              src={menu_icon} 
