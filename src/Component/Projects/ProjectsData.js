@@ -6,8 +6,19 @@ import Project5 from './../../assets/images/p5-1.png'
 import Project6 from './../../assets/images/p6-1.png'
 import Project7 from './../../assets/images/p7-1.png'
 import Project8 from './../../assets/images/p8-1.png'
+import Project9 from './../../assets/images/p9-1.jpg'
+
 export const ProjectsData = [
-  {
+    {
+      id: 9,  
+      img1: Project9,   
+      title: "Web Design",
+      skills:"React Js, Responsive design, Using i18next for translation",
+      date: "10-06-2025",
+      github: "https://github.com/ssebag/Rehlate.git",
+      web: "https://rehlate-sebaghs-projects.vercel.app/",
+    },
+    {
       id: 6,  
       img1: Project4,   
       title: "Web Design",
