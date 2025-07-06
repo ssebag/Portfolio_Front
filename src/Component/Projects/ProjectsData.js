@@ -9,9 +9,19 @@ import Project8 from './../../assets/images/project8.png'
 import Project9 from './../../assets/images/project9.jpg'
 import Project10 from './../../assets/images/project10.jpg'
 import Project11 from './../../assets/images/project11.jpg'
+import Project12 from './../../assets/images/project12.jpg'
 
 export const ProjectsData = [
   {
+    id: 12,  
+    img1: Project12,   
+    title: "Web Design",
+    skills:"React Js, Using Material-Ui Libarary, Using Firebase for Authentication and Data Storage, Please Use VPN to View the Project",
+    date: "10-06-2025",
+    github: "https://github.com/ssebag/Expenses-mui-project.git",
+    web: "https://expenses-mui-project.vercel.app",
+  },
+  { 
       id: 9,  
       img1: Project9,   
       title: "Web Design",
