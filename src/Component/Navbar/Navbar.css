@@ -15,6 +15,10 @@ nav{
 .nav-items a, .nav-mobile-items a{
   color: var(--Black-color);
 }
+
+.nav-items a:hover, .nav-mobile-items a:hover{
+  color: var(--purple-color) !important ;
+}
 /*  ================================= For Mobil ================================== */
 .nav-mobile{
   position: fixed;

@@ -5,3 +5,7 @@
 .media .icon{
     color: var(--purple-color);
 }
+.media .icon:hover{
+    color: var(--White-color);
+    font-size: 20px;
+}

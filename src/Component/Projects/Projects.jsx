@@ -22,7 +22,7 @@ export default function Projects() {
          modules={[ Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={1}
           slidesPerView={3}
-          loop={true}
+         
           breakpoints={{
             300: {
                 slidesPerView: 1,
@@ -34,6 +34,7 @@ export default function Projects() {
                 slidesPerView: 3,
             },
             }}
+            navigation  
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
       >

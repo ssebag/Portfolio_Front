@@ -1,4 +1,31 @@
-.projects .projectCards{
-    flex-wrap: wrap;
-    gap: 50px;
+.projects{
+    padding: 60px 0 ;
+}
+.projects .swiper-wrapper{
+    padding: 0 90px;
+    gap: 25px;
+}
+.projects .swiper-slide{
+    width: 390px !important;
+}
+
+.swiper-button-prev, .swiper-button-next,
+ .swiper-button-prev::after, .swiper-button-next::after{
+    background: var(--purple-color);
+    font-size: 15px !important;
+    color: var(--White-color) !important;
+    height: 50px !important;
+    width: 50px !important;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    padding: 10px 17px;
+    border: 1px solid var(--purple-color);
+    font-weight: 800;   
+}  
+@media (max-width: 780px){
+    .projects .swiper-wrapper {
+        padding: 0 35px;
+        gap: 23px;
+    }
 }

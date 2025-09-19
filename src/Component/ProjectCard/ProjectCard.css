@@ -17,7 +17,6 @@
     line-height: 30px; 
     text-shadow: 0px 0px 10px var(--purple-color);
 }
-
 .projectCard .cardButtons{
     display: flex;
     justify-content: space-around;
@@ -31,6 +30,9 @@
     border-radius: 5px;
     font-size: 16px;
     gap: 10px;
+}
+.projectCard button:hover{
+    background-color:#674b69;
 }
 .projectCard button a, .projectCard svg{
     color: var(--White-color);

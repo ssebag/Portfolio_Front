@@ -18,6 +18,11 @@
    outline: none;
    box-shadow: 0px 0px 15px 0px var(--Black-color);
 }
+.contactMe form .submitButton:hover{
+  background-color: var(--purple-color);
+  color: var(--White-color);
+  box-shadow: 0px 0px 15px 0px var(--Black-color);
+}
 .dark .contactMe form input:focus,.dark .contactMe form textarea:focus {
     box-shadow: 0px 0px 15px 0px var(--purple-color);
  }
