@@ -24,10 +24,9 @@ export default function Projects() {
           spaceBetween={1}
           slidesPerView={3}
           autoplay= {{
-            delay: 1100,
+            delay: 5000,
             pauseOnMouseEnter: 1,
-            waitForTransition: 0,
-            stopOnLastSlide: 1
+          
           }}
           breakpoints={{
             300: {

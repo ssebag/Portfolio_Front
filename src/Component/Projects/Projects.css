@@ -1,6 +1,9 @@
 .projects{
-    padding: 60px 0 ;
+    padding: 60px 0;
 }
+.swiper-horizontal{
+    padding:0 70px !important; 
+} 
 .swiper-button-prev, .swiper-button-next,
  .swiper-button-prev::after, .swiper-button-next::after{
     background: var(--purple-color);
@@ -36,6 +39,4 @@
         padding-top: 70px !important;
        
     } 
-       
-   
 }
