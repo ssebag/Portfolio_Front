@@ -22,8 +22,6 @@ export default function Projects() {
         <div className="projectCards flex-center">
             <Swiper
             modules={[ Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-              spaceBetween={1}
-              slidesPerView={3}
               autoplay= {{
                 delay: 3000,
                 pauseOnMouseEnter: 1,
