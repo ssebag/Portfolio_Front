@@ -4,12 +4,13 @@ import './Projects.css'
 import Title from './../Title/Title'
 import ProjectCard from './../ProjectCard/ProjectCard'
 import {LangContext} from './../../i18n';
-import { Navigation, Pagination, Scrollbar, A11y} from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { delay } from 'framer-motion'
 
 export default function Projects() {
   const { t } = useContext(LangContext);
@@ -19,10 +20,15 @@ export default function Projects() {
      <Title title={t("navbar.Projects")} description={t("project.proDescription")} />
       <div className="projectCards flex-center">
       <Swiper
-         modules={[ Navigation, Pagination, Scrollbar, A11y]}
+         modules={[ Navigation, Pagination, Scrollbar, A11y, Autoplay]}
           spaceBetween={1}
           slidesPerView={3}
-         
+          autoplay= {{
+            delay: 1100,
+            pauseOnMouseEnter: 1,
+            waitForTransition: 0,
+            stopOnLastSlide: 1
+          }}
           breakpoints={{
             300: {
                 slidesPerView: 1,

@@ -1,14 +1,6 @@
 .projects{
     padding: 60px 0 ;
 }
-.projects .swiper-wrapper{
-    padding: 0 90px;
-    gap: 25px;
-}
-.projects .swiper-slide{
-    width: 390px !important;
-}
-
 .swiper-button-prev, .swiper-button-next,
  .swiper-button-prev::after, .swiper-button-next::after{
     background: var(--purple-color);
@@ -23,12 +15,18 @@
     border: 1px solid var(--purple-color);
     font-weight: 800;   
 }  
-@media (max-width: 780px){
- 
-    .swiper-button-prev, .swiper-button-next{
-    display: none !important;
- }
- .projects .swiper-wrapper{
-    padding: 0 25px;
+
+@media (max-width: 1100px)
+{
+    .projects .projectCard{
+            margin: 0 auto;
+        } 
 }
+@media (max-width: 800px){
+   .swiper-horizontal{
+        padding-top: 70px !important;
+       
+    } 
+       
+   
 }

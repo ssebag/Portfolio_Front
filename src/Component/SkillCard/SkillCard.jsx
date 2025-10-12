@@ -5,7 +5,7 @@ export default function SkillCard({ skill,  progress}) {
   const theme= localStorage.getItem("theme");
   return (
     <div className='skillCard'>
-     <p className='skill_name col-1'>
+     <p className='skill_name'>
         {skill} 
       </p>
       <div className="col-lg-7 col-md-10 col-sm-11 col-12 progress">
