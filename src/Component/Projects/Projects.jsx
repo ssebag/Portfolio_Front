@@ -18,39 +18,40 @@ export default function Projects() {
   return (
     <div className="containerSection projects" id="projects">
      <Title title={t("navbar.Projects")} description={t("project.proDescription")} />
-      <div className="projectCards flex-center">
-      <Swiper
-         modules={[ Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-          spaceBetween={1}
-          slidesPerView={3}
-          autoplay= {{
-            delay: 5000,
-            pauseOnMouseEnter: 1,
-          
-          }}
-          breakpoints={{
-            300: {
-                slidesPerView: 1,
-            },
-           800: {
-                slidesPerView: 2,
-            },
-            1120: {
-                slidesPerView: 3,
-            },
-            }}
-            navigation  
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
-      >
-         {ProjectsData.map((el, idx) => {
-            return (
-              <SwiperSlide>
-                <ProjectCard data={el}/>
-                </SwiperSlide>
-            );
-          })}
+       <div className='positonRelative'>
+        <div className="projectCards flex-center">
+            <Swiper
+            modules={[ Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+              spaceBetween={1}
+              slidesPerView={3}
+              autoplay= {{
+                delay: 3000,
+                pauseOnMouseEnter: 1,
+              }}
+              breakpoints={{
+                300: {
+                    slidesPerView: 1,
+                },
+              800: {
+                    slidesPerView: 2,
+                },
+                1120: {
+                    slidesPerView: 3,
+                },
+                }}
+                navigation  
+              onSwiper={(swiper) => console.log(swiper)}
+              onSlideChange={() => console.log('slide change')}
+          >
+            {ProjectsData.map((el, idx) => {
+                return (
+                  <SwiperSlide>
+                    <ProjectCard data={el}/>
+                    </SwiperSlide>
+                );
+              })}
           </Swiper>
+        </div>
      </div>
     </div>
   )
