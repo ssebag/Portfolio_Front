@@ -23,6 +23,15 @@
         } 
 }
 @media (max-width: 800px){
+    .swiper-button-prev, .swiper-button-next{
+        top: 30px !important;
+    }
+    .swiper-button-prev{
+        left:  35% !important;
+    }
+    .swiper-button-next{
+        left:  55% !important;
+    }   
    .swiper-horizontal{
         padding-top: 70px !important;
        
