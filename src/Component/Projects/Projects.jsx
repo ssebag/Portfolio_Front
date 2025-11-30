@@ -23,7 +23,7 @@ export default function Projects() {
             <Swiper
             modules={[ Navigation, Pagination, Scrollbar, A11y, Autoplay]}
               autoplay= {{
-                delay: 3000,
+                delay: 6000,
                 pauseOnMouseEnter: 1,
               }}
               breakpoints={{

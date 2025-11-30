@@ -1,4 +1,8 @@
 export const SkillsDetails=[
+     {
+        skill: 'Next Js',
+        progress:'40%'
+    },
     {
         skill: 'ReactJs',
         progress:'85%'
@@ -7,10 +11,7 @@ export const SkillsDetails=[
         skill: 'ReactJs Libraries',
         progress:'80%'
     },
-    {
-        skill: 'Next Js',
-        progress:'40%'
-    },
+   
     {
         skill: 'Html',
         progress:'95%'

@@ -10,8 +10,18 @@ import Project9 from './../../assets/images/project9.jpg'
 import Project10 from './../../assets/images/project10.jpg'
 import Project11 from './../../assets/images/project11.jpg'
 import Project12 from './../../assets/images/project12.jpg'
+import Project13 from './../../assets/images/project13.jpg'
 
 export const ProjectsData = [
+  { 
+    id: 13,  
+    img1: Project13,   
+    title: "Web Design",
+    skills:"Beginning in Next Js",
+    date: "29-11-2025",
+    github: "https://github.com/ssebag/e-commerce-nextjs.git",
+    web: "https://e-commerce-nextjs-rgg9.vercel.app/",
+},
   { 
     id: 9,  
     img1: Project9,   
